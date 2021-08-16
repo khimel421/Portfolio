@@ -1,0 +1,214 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:  'Raleway', sans-serif;
+}
+
+.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height: 500px;
+}
+
+.photo{
+    height: 46%;
+    width: 214px;
+    margin-top: 6%;
+    border: 2px black solid;
+    border-radius: 3px;
+}
+
+.photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.photo p{
+    font-family: inherit;
+    margin-top: 10px;
+    margin-left: 7px;
+    font-style: bold;
+    text-align: center;
+    font-weight: bold;
+}
+
+.heading{
+    align-self: center;
+    line-height: 40px;
+}
+
+.heading p{
+    font-size: 22px;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-size: 28px;
+    text-align: center;
+}
+
+/*card style*/
+
+.card{
+    width: 17%;
+    float: left;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    margin: 6%;
+   }
+
+.image img{
+ width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+}
+
+.title{
+ text-align: center;
+ padding: 10px;
+}
+
+h1{
+ font-size: 20px;
+}
+
+.des{
+ padding: 3px;
+ text-align: center;
+ padding-top: 10px;
+ border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+}
+
+button{
+ margin-top: 40px;
+ margin-bottom: 10px;
+ background-color: white;
+ border: 1px solid black;
+ border-radius: 5px;
+ padding:10px;
+}
+
+button:hover{
+ background-color: black;
+ color: white;
+ transition: .5s;
+ cursor: pointer;
+}
+
+/* ---------card style end-----*/
+
+/*-----skilled section------*/
+
+.box3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    margin-top: 15px;
+
+}
+
+#js{
+    margin-top: -32px;
+    margin-right: 25px;
+}
+
+.circle{
+    width: 6%;
+    height: 40%;
+}
+
+.circle img{
+    height: 100%;
+    width: 100%;
+}
+
+/*-----skilled section------*/
+
+/*-----About section------*/
+
+.box4{
+    box-sizing: border-box;
+    background-color: #192734;
+    height: 450px;
+    color: white;
+}
+.box4 h3{
+    color: white;
+    padding-top: 23px;
+}
+.box4 p{
+    margin-top: 20px;
+    padding: 50px;
+    font-size: 25px;
+    line-height: 167%;
+}
+
+/*-----About section------*/
+
+/*---contact section----*/
+
+
+.contact{
+    box-sizing: border-box;
+    padding-top: 20px;
+    height: 500px;
+
+    
+}
+
+.dod{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 3%;
+    
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 4px 22px 0px;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+
+input[type=text], input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+button{
+	background-color: #04AA6D;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+
+button:hover{
+	opacity: 1;
+}
+
+.signupbtn {
+    width: 108%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*---contact section----*/
